@@ -20,6 +20,10 @@
     "onCommand:waitList.searchTasks"
   ],
   "main": "./extension.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/reed244/waitList.git"
+  },
   "contributes": {
     "commands": [
       {
