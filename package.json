@@ -1,0 +1,112 @@
+{
+  "name": "waitList",
+  "displayName": "Wait List",
+  "description": "A VSCode extension for managing daily tasks",
+  "version": "0.0.1",
+  "publisher": "Reed244",
+  "engines": {
+    "vscode": "^1.96.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:waitList.createTask",
+    "onCommand:waitList.showTasks",
+    "onCommand:waitList.editTask",
+    "onCommand:waitList.deleteTask",
+    "onCommand:waitList.toggleTaskCompletion",
+    "onCommand:waitList.sortTasks",
+    "onCommand:waitList.searchTasks"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "waitList.createTask",
+        "title": "Create Task"
+      },
+      {
+        "command": "waitList.showTasks",
+        "title": "Show Tasks"
+      },
+      {
+        "command": "waitList.editTask",
+        "title": "Edit Task"
+      },
+      {
+        "command": "waitList.deleteTask",
+        "title": "Delete Task"
+      },
+      {
+        "command": "waitList.toggleTaskCompletion",
+        "title": "Toggle Task Completion"
+      },
+      {
+        "command": "waitList.sortTasks",
+        "title": "Sort Tasks"
+      },
+      {
+        "command": "waitList.searchTasks",
+        "title": "Search Tasks"
+      }
+    ],
+    "views": {
+      "explorer": [
+        {
+          "id": "waitListView",
+          "name": "Wait List"
+        }
+      ]
+    },
+    "keybindings": [
+      {
+        "command": "waitList.createTask",
+        "key": "ctrl+alt+c",
+        "when": "editorTextFocus"
+      },
+      {
+        "command": "waitList.showTasks",
+        "key": "ctrl+alt+s",
+        "when": "editorTextFocus"
+      },
+      {
+        "command": "waitList.editTask",
+        "key": "ctrl+alt+e",
+        "when": "editorTextFocus"
+      },
+      {
+        "command": "waitList.deleteTask",
+        "key": "ctrl+alt+d",
+        "when": "editorTextFocus"
+      },
+      {
+        "command": "waitList.toggleTaskCompletion",
+        "key": "ctrl+alt+t",
+        "when": "editorTextFocus"
+      },
+      {
+        "command": "waitList.sortTasks",
+        "key": "ctrl+alt+o",
+        "when": "editorTextFocus"
+      },
+      {
+        "command": "waitList.searchTasks",
+        "key": "ctrl+alt+f",
+        "when": "editorTextFocus"
+      }
+    ]
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.96.0",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "20.x",
+    "eslint": "^8.0.0",
+    "vscode-test": "^1.6.0"
+  }
+}
