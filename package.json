@@ -10,6 +10,10 @@
   "categories": [
     "Other"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/reed244/waitList.git"
+  },
   "activationEvents": [
     "onCommand:waitList.createTask",
     "onCommand:waitList.showTasks",
