@@ -17,7 +17,7 @@
 
 ## Dependencies
 
-- VSCode version 1.60.0 and above
+- VSCode version 1.96.0 and above
 
 ## Installation
 
