@@ -1,73 +1,73 @@
 # waitList README
 
-`waitList` ÊÇÒ»¸öÓÃÓÚ¹ÜÀíÈÕ³£´ý°ìÊÂÏîµÄ VSCode À©Õ¹¡£ËüÔÊÐíÓÃ»§´´½¨¡¢±à¼­¡¢É¾³ý¡¢±ê¼ÇÍê³ÉºÍÎ´Íê³ÉÈÎÎñ£¬²¢Ìá¹©ÈÎÎñÅÅÐò¡¢ËÑË÷ºÍÌáÐÑ¹¦ÄÜ¡£
+`waitList` æ˜¯ä¸€ä¸ªç”¨äºŽç®¡ç†æ—¥å¸¸å¾…åŠžäº‹é¡¹çš„ VSCode æ‰©å±•ã€‚å®ƒå…è®¸ç”¨æˆ·åˆ›å»ºã€ç¼–è¾‘ã€åˆ é™¤ã€æ ‡è®°å®Œæˆå’Œæœªå®Œæˆä»»åŠ¡ï¼Œå¹¶æä¾›ä»»åŠ¡æŽ’åºã€æœç´¢å’Œæé†’åŠŸèƒ½ã€‚
 
-## ¹¦ÄÜ
+## åŠŸèƒ½
 
-- **´´½¨ÈÎÎñ**£ºÔÊÐíÓÃ»§´´½¨ÐÂµÄ´ý°ìÊÂÏî£¬°üÀ¨ÃèÊö¡¢ÓÅÏÈ¼¶ºÍ½ØÖ¹ÈÕÆÚ¡£
-- **ÏÔÊ¾ÈÎÎñ**£ºÔÚ²à±ßÀ¸ÖÐÏÔÊ¾ËùÓÐ´ý°ìÊÂÏî¡£
-- **±à¼­ÈÎÎñ**£ºÔÊÐíÓÃ»§±à¼­ÏÖÓÐÈÎÎñµÄÃèÊö¡¢ÓÅÏÈ¼¶ºÍ½ØÖ¹ÈÕÆÚ¡£
-- **É¾³ýÈÎÎñ**£ºÔÊÐíÓÃ»§É¾³ýÏÖÓÐÈÎÎñ¡£
-- **±ê¼ÇÈÎÎñÍê³É/Î´Íê³É**£ºÔÊÐíÓÃ»§±ê¼ÇÈÎÎñÎªÍê³É»òÎ´Íê³É¡£
-- **ÅÅÐòÈÎÎñ**£º¸ù¾ÝÓÅÏÈ¼¶»ò½ØÖ¹ÈÕÆÚ¶ÔÈÎÎñ½øÐÐÅÅÐò¡£
-- **ËÑË÷ÈÎÎñ**£º¿ìËÙËÑË÷ÌØ¶¨ÈÎÎñ¡£
-- **ÈÎÎñÌáÐÑ**£ºÔÚÈÎÎñ½ØÖ¹ÈÕÆÚÁÙ½üÊ±ÌáÐÑÓÃ»§¡£
-- **²à±ßÀ¸ÊÓÍ¼**£ºÔÚ²à±ßÀ¸ÖÐ¼¯³ÉÒ»¸öÊÓÍ¼£¬ÓÃÓÚÏÔÊ¾ºÍ¹ÜÀí´ý°ìÊÂÏî¡£
-- **¿ì½Ý¼ü**£ºÎª³£ÓÃ²Ù×÷ÉèÖÃ¿ì½Ý¼ü£¬Ìá¸ßÐ§ÂÊ¡£
+- **åˆ›å»ºä»»åŠ¡**ï¼šå…è®¸ç”¨æˆ·åˆ›å»ºæ–°çš„å¾…åŠžäº‹é¡¹ï¼ŒåŒ…æ‹¬æè¿°ã€ä¼˜å…ˆçº§å’Œæˆªæ­¢æ—¥æœŸã€‚
+- **æ˜¾ç¤ºä»»åŠ¡**ï¼šåœ¨ä¾§è¾¹æ ä¸­æ˜¾ç¤ºæ‰€æœ‰å¾…åŠžäº‹é¡¹ã€‚
+- **ç¼–è¾‘ä»»åŠ¡**ï¼šå…è®¸ç”¨æˆ·ç¼–è¾‘çŽ°æœ‰ä»»åŠ¡çš„æè¿°ã€ä¼˜å…ˆçº§å’Œæˆªæ­¢æ—¥æœŸã€‚
+- **åˆ é™¤ä»»åŠ¡**ï¼šå…è®¸ç”¨æˆ·åˆ é™¤çŽ°æœ‰ä»»åŠ¡ã€‚
+- **æ ‡è®°ä»»åŠ¡å®Œæˆ/æœªå®Œæˆ**ï¼šå…è®¸ç”¨æˆ·æ ‡è®°ä»»åŠ¡ä¸ºå®Œæˆæˆ–æœªå®Œæˆã€‚
+- **æŽ’åºä»»åŠ¡**ï¼šæ ¹æ®ä¼˜å…ˆçº§æˆ–æˆªæ­¢æ—¥æœŸå¯¹ä»»åŠ¡è¿›è¡ŒæŽ’åºã€‚
+- **æœç´¢ä»»åŠ¡**ï¼šå¿«é€Ÿæœç´¢ç‰¹å®šä»»åŠ¡ã€‚
+- **ä»»åŠ¡æé†’**ï¼šåœ¨ä»»åŠ¡æˆªæ­¢æ—¥æœŸä¸´è¿‘æ—¶æé†’ç”¨æˆ·ã€‚
+- **ä¾§è¾¹æ è§†å›¾**ï¼šåœ¨ä¾§è¾¹æ ä¸­é›†æˆä¸€ä¸ªè§†å›¾ï¼Œç”¨äºŽæ˜¾ç¤ºå’Œç®¡ç†å¾…åŠžäº‹é¡¹ã€‚
+- **å¿«æ·é”®**ï¼šä¸ºå¸¸ç”¨æ“ä½œè®¾ç½®å¿«æ·é”®ï¼Œæé«˜æ•ˆçŽ‡ã€‚
 
-## ÒÀÀµ
+## ä¾èµ–
 
-- VSCode °æ±¾ 1.60.0 ¼°ÒÔÉÏ
+- VSCode ç‰ˆæœ¬ 1.60.0 åŠä»¥ä¸Š
 
-## °²×°
+## å®‰è£…
 
-1. ´ò¿ª VSCode¡£
-2. ×ªµ½À©Õ¹ÊÓÍ¼£¨°´ `Ctrl+Shift+X`£©¡£
-3. ËÑË÷ `waitList` ²¢µã»÷°²×°¡£
+1. æ‰“å¼€ VSCodeã€‚
+2. è½¬åˆ°æ‰©å±•è§†å›¾ï¼ˆæŒ‰ `Ctrl+Shift+X`ï¼‰ã€‚
+3. æœç´¢ `waitList` å¹¶ç‚¹å‡»å®‰è£…ã€‚
 
-## Ê¹ÓÃ
+## ä½¿ç”¨
 
-1. ´ò¿ªÃüÁîÃæ°å£¨°´ `Ctrl+Shift+P`£©¡£
-2. ÊäÈë²¢Ñ¡ÔñÒÔÏÂÃüÁîÖ®Ò»£º
-   - `waitList.createTask`£º´´½¨ÈÎÎñ
-   - `waitList.showTasks`£ºÏÔÊ¾ÈÎÎñ
-   - `waitList.editTask`£º±à¼­ÈÎÎñ
-   - `waitList.deleteTask`£ºÉ¾³ýÈÎÎñ
-   - `waitList.toggleTaskCompletion`£º±ê¼ÇÈÎÎñÍê³É/Î´Íê³É
-   - `waitList.sortTasks`£ºÅÅÐòÈÎÎñ
-   - `waitList.searchTasks`£ºËÑË÷ÈÎÎñ
+1. æ‰“å¼€å‘½ä»¤é¢æ¿ï¼ˆæŒ‰ `Ctrl+Shift+P`ï¼‰ã€‚
+2. è¾“å…¥å¹¶é€‰æ‹©ä»¥ä¸‹å‘½ä»¤ä¹‹ä¸€ï¼š
+   - `waitList.createTask`ï¼šåˆ›å»ºä»»åŠ¡
+   - `waitList.showTasks`ï¼šæ˜¾ç¤ºä»»åŠ¡
+   - `waitList.editTask`ï¼šç¼–è¾‘ä»»åŠ¡
+   - `waitList.deleteTask`ï¼šåˆ é™¤ä»»åŠ¡
+   - `waitList.toggleTaskCompletion`ï¼šæ ‡è®°ä»»åŠ¡å®Œæˆ/æœªå®Œæˆ
+   - `waitList.sortTasks`ï¼šæŽ’åºä»»åŠ¡
+   - `waitList.searchTasks`ï¼šæœç´¢ä»»åŠ¡
 
-## ¿ì½Ý¼ü
+## å¿«æ·é”®
 
-- `Ctrl+Alt+C`£º´´½¨ÈÎÎñ
-- `Ctrl+Alt+S`£ºÏÔÊ¾ÈÎÎñ
-- `Ctrl+Alt+E`£º±à¼­ÈÎÎñ
-- `Ctrl+Alt+D`£ºÉ¾³ýÈÎÎñ
-- `Ctrl+Alt+T`£º±ê¼ÇÈÎÎñÍê³É/Î´Íê³É
-- `Ctrl+Alt+O`£ºÅÅÐòÈÎÎñ
-- `Ctrl+Alt+F`£ºËÑË÷ÈÎÎñ
+- `Ctrl+Alt+C`ï¼šåˆ›å»ºä»»åŠ¡
+- `Ctrl+Alt+S`ï¼šæ˜¾ç¤ºä»»åŠ¡
+- `Ctrl+Alt+E`ï¼šç¼–è¾‘ä»»åŠ¡
+- `Ctrl+Alt+D`ï¼šåˆ é™¤ä»»åŠ¡
+- `Ctrl+Alt+T`ï¼šæ ‡è®°ä»»åŠ¡å®Œæˆ/æœªå®Œæˆ
+- `Ctrl+Alt+O`ï¼šæŽ’åºä»»åŠ¡
+- `Ctrl+Alt+F`ï¼šæœç´¢ä»»åŠ¡
 
-## ¿ª·¢¹ý³Ì
+## å¼€å‘è¿‡ç¨‹
 
-1. Ê¹ÓÃ `yo code` Éú³ÉÒ»¸öÐÂµÄ VSCode À©Õ¹ÏîÄ¿¡£
-2. ÔÚ `package.json` ÖÐ¶¨ÒåÃüÁîºÍÊÓÍ¼¡£
-3. ÔÚ `extension.js` ÖÐÊµÏÖÈÎÎñ´´½¨¡¢±à¼­¡¢É¾³ý¡¢±ê¼ÇÍê³É/Î´Íê³É¡¢ÅÅÐò¡¢ËÑË÷ºÍÌáÐÑ¹¦ÄÜ¡£
-4. Ê¹ÓÃ VSCode µÄ TreeView API ÔÚ²à±ßÀ¸ÖÐ¼¯³ÉÒ»¸öÊÓÍ¼¡£
-5. Ê¹ÓÃ VSCode µÄÍ¨Öª API ÊµÏÖÈÎÎñÌáÐÑ¹¦ÄÜ¡£
-6. Ê¹ÓÃ JSON ÎÄ¼þ³Ö¾Ã»¯ÈÎÎñ¼ÇÂ¼¡£
+1. ä½¿ç”¨ `yo code` ç”Ÿæˆä¸€ä¸ªæ–°çš„ VSCode æ‰©å±•é¡¹ç›®ã€‚
+2. åœ¨ `package.json` ä¸­å®šä¹‰å‘½ä»¤å’Œè§†å›¾ã€‚
+3. åœ¨ `extension.js` ä¸­å®žçŽ°ä»»åŠ¡åˆ›å»ºã€ç¼–è¾‘ã€åˆ é™¤ã€æ ‡è®°å®Œæˆ/æœªå®Œæˆã€æŽ’åºã€æœç´¢å’Œæé†’åŠŸèƒ½ã€‚
+4. ä½¿ç”¨ VSCode çš„ TreeView API åœ¨ä¾§è¾¹æ ä¸­é›†æˆä¸€ä¸ªè§†å›¾ã€‚
+5. ä½¿ç”¨ VSCode çš„é€šçŸ¥ API å®žçŽ°ä»»åŠ¡æé†’åŠŸèƒ½ã€‚
+6. ä½¿ç”¨ JSON æ–‡ä»¶æŒä¹…åŒ–ä»»åŠ¡è®°å½•ã€‚
 
-## Î´À´¿ÉÄÜµÄÌí¼Ó¹¦ÄÜ
+## æœªæ¥å¯èƒ½çš„æ·»åŠ åŠŸèƒ½
 
-- **ÈÎÎñÍ¬²½**£ºÔÚ¶à¸öÉè±¸ÉÏÍ¬²½ÈÎÎñ¡£
-- **ÈÎÎñ±êÇ©**£ºÎªÈÎÎñÌí¼Ó±êÇ©£¬ÒÔ±ã¸üºÃµØ·ÖÀàºÍ¹ÜÀí¡£
-- **ÈÎÎñµ¼³ö/µ¼Èë**£ºÔÊÐíÓÃ»§µ¼³öºÍµ¼ÈëÈÎÎñÁÐ±í¡£
-- **ÈÎÎñÍ³¼Æ**£ºÌá¹©ÈÎÎñÍê³ÉÇé¿öµÄÍ³¼ÆÐÅÏ¢¡£
-- **×Ô¶¨ÒåÌáÐÑ**£ºÔÊÐíÓÃ»§ÉèÖÃ×Ô¶¨ÒåÌáÐÑÊ±¼ä¡£
+- **ä»»åŠ¡åŒæ­¥**ï¼šåœ¨å¤šä¸ªè®¾å¤‡ä¸ŠåŒæ­¥ä»»åŠ¡ã€‚
+- **ä»»åŠ¡æ ‡ç­¾**ï¼šä¸ºä»»åŠ¡æ·»åŠ æ ‡ç­¾ï¼Œä»¥ä¾¿æ›´å¥½åœ°åˆ†ç±»å’Œç®¡ç†ã€‚
+- **ä»»åŠ¡å¯¼å‡º/å¯¼å…¥**ï¼šå…è®¸ç”¨æˆ·å¯¼å‡ºå’Œå¯¼å…¥ä»»åŠ¡åˆ—è¡¨ã€‚
+- **ä»»åŠ¡ç»Ÿè®¡**ï¼šæä¾›ä»»åŠ¡å®Œæˆæƒ…å†µçš„ç»Ÿè®¡ä¿¡æ¯ã€‚
+- **è‡ªå®šä¹‰æé†’**ï¼šå…è®¸ç”¨æˆ·è®¾ç½®è‡ªå®šä¹‰æé†’æ—¶é—´ã€‚
 
-## ¹±Ï×
+## è´¡çŒ®
 
-Èç¹ûÄúÓÐÈÎºÎ½¨Òé»ò·¢ÏÖÁËÎÊÌâ£¬ÇëÌá½» issue »ò pull request¡£
+å¦‚æžœæ‚¨æœ‰ä»»ä½•å»ºè®®æˆ–å‘çŽ°äº†é—®é¢˜ï¼Œè¯·æäº¤ issue æˆ– pull requestã€‚
 
-## Ðí¿ÉÖ¤
+## è®¸å¯è¯
 
 MIT License

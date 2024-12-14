@@ -1,11 +1,11 @@
 {
-  "name": "waitList",
+  "name": "wait-list",
   "displayName": "Wait List",
   "description": "A VSCode extension for managing daily tasks",
   "version": "0.0.1",
-  "publisher": "Reed244",
+  "publisher": "reed244",
   "engines": {
-    "vscode": "^1.96.0"
+    "vscode": "^1.60.0"
   },
   "categories": [
     "Other"
@@ -20,10 +20,6 @@
     "onCommand:waitList.searchTasks"
   ],
   "main": "./extension.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/reed244/waitList.git"
-  },
   "contributes": {
     "commands": [
       {
@@ -60,6 +56,20 @@
         {
           "id": "waitListView",
           "name": "Wait List"
+        }
+      ]
+    },
+    "menus": {
+      "view/item/context": [
+        {
+          "command": "waitList.editTask",
+          "when": "viewItem == taskItem",
+          "group": "inline"
+        },
+        {
+          "command": "waitList.deleteTask",
+          "when": "viewItem == taskItem",
+          "group": "inline"
         }
       ]
     },
