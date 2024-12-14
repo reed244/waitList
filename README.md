@@ -1,73 +1,73 @@
 # waitList README
 
-`waitList` 是一个用于管理日常待办事项的 VSCode 扩展。它允许用户创建、编辑、删除、标记完成和未完成任务，并提供任务排序、搜索和提醒功能。
+`waitList` is a VSCode extension for managing daily to-do tasks. It allows users to create, edit, delete, mark tasks as completed or incomplete, and provides task sorting, searching, and reminder functions.
 
-## 功能
+## Features
 
-- **创建任务**：允许用户创建新的待办事项，包括描述、优先级和截止日期。
-- **显示任务**：在侧边栏中显示所有待办事项。
-- **编辑任务**：允许用户编辑现有任务的描述、优先级和截止日期。
-- **删除任务**：允许用户删除现有任务。
-- **标记任务完成/未完成**：允许用户标记任务为完成或未完成。
-- **排序任务**：根据优先级或截止日期对任务进行排序。
-- **搜索任务**：快速搜索特定任务。
-- **任务提醒**：在任务截止日期临近时提醒用户。
-- **侧边栏视图**：在侧边栏中集成一个视图，用于显示和管理待办事项。
-- **快捷键**：为常用操作设置快捷键，提高效率。
+- **Create Task**: Allows users to create new to-do tasks, including description, priority, and due date.
+- **Display Tasks**: Displays all to-do tasks in the sidebar.
+- **Edit Task**: Allows users to edit the description, priority, and due date of existing tasks.
+- **Delete Task**: Allows users to delete existing tasks.
+- **Mark Task as Completed/Incomplete**: Allows users to mark tasks as completed or incomplete.
+- **Sort Tasks**: Sorts tasks by priority or due date.
+- **Search Tasks**: Quickly searches for specific tasks.
+- **Task Reminders**: Reminds users when the task due date is approaching.
+- **Sidebar View**: Integrates a view in the sidebar for displaying and managing to-do tasks.
+- **Shortcuts**: Sets shortcuts for common operations to improve efficiency.
 
-## 依赖
+## Dependencies
 
-- VSCode 版本 1.60.0 及以上
+- VSCode version 1.60.0 and above
 
-## 安装
+## Installation
 
-1. 打开 VSCode。
-2. 转到扩展视图（按 `Ctrl+Shift+X`）。
-3. 搜索 `waitList` 并点击安装。
+1. Open VSCode.
+2. Go to the Extensions view (press `Ctrl+Shift+X`).
+3. Search for `waitList` and click Install.
 
-## 使用
+## Usage
 
-1. 打开命令面板（按 `Ctrl+Shift+P`）。
-2. 输入并选择以下命令之一：
-   - `waitList.createTask`：创建任务
-   - `waitList.showTasks`：显示任务
-   - `waitList.editTask`：编辑任务
-   - `waitList.deleteTask`：删除任务
-   - `waitList.toggleTaskCompletion`：标记任务完成/未完成
-   - `waitList.sortTasks`：排序任务
-   - `waitList.searchTasks`：搜索任务
+1. Open the command palette (press `Ctrl+Shift+P`).
+2. Enter and select one of the following commands:
+   - `waitList.createTask`: Create Task
+   - `waitList.showTasks`: Display Tasks
+   - `waitList.editTask`: Edit Task
+   - `waitList.deleteTask`: Delete Task
+   - `waitList.toggleTaskCompletion`: Mark Task as Completed/Incomplete
+   - `waitList.sortTasks`: Sort Tasks
+   - `waitList.searchTasks`: Search Tasks
 
-## 快捷键
+## Shortcuts
 
-- `Ctrl+Alt+C`：创建任务
-- `Ctrl+Alt+S`：显示任务
-- `Ctrl+Alt+E`：编辑任务
-- `Ctrl+Alt+D`：删除任务
-- `Ctrl+Alt+T`：标记任务完成/未完成
-- `Ctrl+Alt+O`：排序任务
-- `Ctrl+Alt+F`：搜索任务
+- `Ctrl+Alt+C`: Create Task
+- `Ctrl+Alt+S`: Display Tasks
+- `Ctrl+Alt+E`: Edit Task
+- `Ctrl+Alt+D`: Delete Task
+- `Ctrl+Alt+T`: Mark Task as Completed/Incomplete
+- `Ctrl+Alt+O`: Sort Tasks
+- `Ctrl+Alt+F`: Search Tasks
 
-## 开发过程
+## Development Process
 
-1. 使用 `yo code` 生成一个新的 VSCode 扩展项目。
-2. 在 `package.json` 中定义命令和视图。
-3. 在 `extension.js` 中实现任务创建、编辑、删除、标记完成/未完成、排序、搜索和提醒功能。
-4. 使用 VSCode 的 TreeView API 在侧边栏中集成一个视图。
-5. 使用 VSCode 的通知 API 实现任务提醒功能。
-6. 使用 JSON 文件持久化任务记录。
+1. Use `yo code` to generate a new VSCode extension project.
+2. Define commands and views in `package.json`.
+3. Implement task creation, editing, deletion, marking as completed/incomplete, sorting, searching, and reminder functions in `extension.js`.
+4. Use VSCode's TreeView API to integrate a view in the sidebar.
+5. Use VSCode's notification API to implement task reminder functionality.
+6. Use JSON files to persist task records.
 
-## 未来可能的添加功能
+## Possible Future Additions
 
-- **任务同步**：在多个设备上同步任务。
-- **任务标签**：为任务添加标签，以便更好地分类和管理。
-- **任务导出/导入**：允许用户导出和导入任务列表。
-- **任务统计**：提供任务完成情况的统计信息。
-- **自定义提醒**：允许用户设置自定义提醒时间。
+- **Task Sync**: Sync tasks across multiple devices.
+- **Task Tags**: Add tags to tasks for better classification and management.
+- **Task Export/Import**: Allow users to export and import task lists.
+- **Task Statistics**: Provide statistics on task completion.
+- **Custom Reminders**: Allow users to set custom reminder times.
 
-## 贡献
+## Contribution
 
-如果您有任何建议或发现了问题，请提交 issue 或 pull request。
+If you have any suggestions or find any issues, please submit an issue or pull request.
 
-## 许可证
+## License
 
 MIT License
